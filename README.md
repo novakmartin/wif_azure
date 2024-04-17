@@ -6,4 +6,5 @@ In the beginning you need to set credentials for Azure and Google projects. Thes
 Upon successfull authentication you obtain a WifToken2.0 object, which can be used for impersonation while calling various Google APIs. 
 
 bigrquery::bq_auth(token = wif_token)
+
 googleAnalyticsR::ga_auth(token = wif_token) ... 
